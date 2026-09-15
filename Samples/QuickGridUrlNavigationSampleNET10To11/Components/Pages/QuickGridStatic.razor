@@ -1,0 +1,18 @@
+@page "/quickgrid-static"
+
+<PageTitle>QuickGrid Static SSR</PageTitle>
+
+<h1>QuickGrid Static SSR</h1>
+
+<QuickGrid Items="@QuickGridSampleData.Records" Pagination="@pagination" Class="table">
+    <PropertyColumn Property="@(record => record.Id)" Title="ID" Sortable="true" />
+    <PropertyColumn Property="@(record => record.Name)" Sortable="true" />
+    <PropertyColumn Property="@(record => record.City)" Sortable="true" />
+    <PropertyColumn Property="@(record => record.Joined)" Sortable="true" />
+</QuickGrid>
+
+<Paginator State="@pagination" />
+
+@code {
+    private readonly PaginationState pagination = new() { ItemsPerPage = 5 };
+}
