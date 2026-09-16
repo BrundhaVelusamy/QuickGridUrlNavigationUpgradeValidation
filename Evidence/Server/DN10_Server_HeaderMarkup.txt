@@ -1,1 +1,2 @@
-<div class="col-title-text" b-b7yucal7gj="">Name</div>
+<button class="col-title" type="button" b-b7yucal7gj=""><div class="col-title-text" b-b7yucal7gj="">Name</div><!--!-->
+                    <div class="sort-indicator" aria-hidden="true" b-b7yucal7gj=""></div></button>
