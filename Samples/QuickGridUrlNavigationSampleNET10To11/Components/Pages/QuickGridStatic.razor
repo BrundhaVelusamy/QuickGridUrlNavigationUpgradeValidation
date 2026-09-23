@@ -13,6 +13,8 @@
 
 <Paginator State="@pagination" />
 
+<QuickGridSelectorValidation />
+
 @code {
     private readonly PaginationState pagination = new() { ItemsPerPage = 5 };
 }
