@@ -1,0 +1,8 @@
+<div class="paginator" b-3qssc0bm46=""><div class="summary" b-3qssc0bm46=""><strong b-3qssc0bm46="">20</strong> items</div>
+        <nav role="navigation" b-3qssc0bm46=""><a class="go-first" href="http://localhost:5041/quickgrid-static" title="Go to first page" aria-label="Go to first page" aria-disabled="true" tabindex="-1" b-3qssc0bm46="">«</a>
+                <a class="go-previous" href="http://localhost:5041/quickgrid-static" title="Go to previous page" aria-label="Go to previous page" aria-disabled="true" tabindex="-1" b-3qssc0bm46="">‹</a>
+                <div class="pagination-text" b-3qssc0bm46="">
+                    Page <strong b-3qssc0bm46="">1</strong>
+                    of <strong b-3qssc0bm46="">4</strong></div>
+                <a class="go-next" href="http://localhost:5041/quickgrid-static?page=2" title="Go to next page" aria-label="Go to next page" aria-disabled="false" b-3qssc0bm46="">›</a>
+                <a class="go-last" href="http://localhost:5041/quickgrid-static?page=4" title="Go to last page" aria-label="Go to last page" aria-disabled="false" b-3qssc0bm46="">»</a></nav></div>
