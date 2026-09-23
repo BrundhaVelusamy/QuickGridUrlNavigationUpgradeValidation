@@ -1,5 +1,9 @@
 using QuickGridUrlNavigationSampleNET10To11.Components;
 
+AppContext.SetSwitch(
+"Microsoft.AspNetCore.Components.QuickGrid.EnableUrlBasedQuickGridNavigationAndSorting",
+false);
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
